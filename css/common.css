@@ -1,9 +1,9 @@
 /* LAYOUT STYLE */
 
 html, body {
-	background:#eaeaea url(../img/bg.png) repeat;
 	font-size:12px;
 	font-family:"Open Sans", serif;
+	background-color: black;
 	min-width:960px;
 	margin:0;
 	padding:0;
