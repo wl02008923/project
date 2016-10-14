@@ -1,0 +1,13 @@
+.banner2{
+	z-index: 0;
+}
+.puzzle{
+	z-index: 1;
+}
+.puzzle{
+	text-align : center;
+	line-height : 200px;
+}
+.puzzle>img{
+	vertical-align : middle;
+}
