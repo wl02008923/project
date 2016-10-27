@@ -1,0 +1,16 @@
+.start{
+	max-height: 50%;
+}
+.lifeCycle>div>img{
+	vertical-align : middle;
+}
+.lifeCycle{
+
+	text-align : center;
+}
+.puzzle>img{
+	vertical-align : middle;
+}
+.blank{
+	height: 60%;
+}
