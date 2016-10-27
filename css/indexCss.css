@@ -1,13 +1,16 @@
-.banner2{
-	z-index: 0;
+.start{
+	max-height: 50%;
 }
-.puzzle{
-	z-index: 1;
+.lifeCycle>div>img{
+	vertical-align : middle;
 }
-.puzzle{
+.lifeCycle{
+
 	text-align : center;
-	line-height : 200px;
 }
 .puzzle>img{
 	vertical-align : middle;
+}
+.blank{
+	height: 60%;
 }
