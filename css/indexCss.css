@@ -1,13 +1,17 @@
-.banner2{
-	z-index: 0;
-}
-.puzzle{
-	z-index: 1;
-}
-.puzzle{
+.lifecycle{
 	text-align : center;
-	line-height : 200px;
 }
-.puzzle>img{
+.lifecycle>div>img{
 	vertical-align : middle;
 }
+.button{
+	text-align : center;
+
+}
+.button>div>a>img{
+	vertical-align : middle;
+}
+.button>div>a>p{
+	font-size: 30px;
+}
+
