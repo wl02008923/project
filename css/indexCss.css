@@ -1,16 +1,17 @@
-.start{
-	max-height: 50%;
-}
-.lifeCycle>div>img{
-	vertical-align : middle;
-}
-.lifeCycle{
-
+.lifecycle{
 	text-align : center;
 }
-.puzzle>img{
+.lifecycle>div>img{
 	vertical-align : middle;
 }
-.blank{
-	height: 60%;
+.button{
+	text-align : center;
+
 }
+.button>div>a>img{
+	vertical-align : middle;
+}
+.button>div>a>p{
+	font-size: 30px;
+}
+
