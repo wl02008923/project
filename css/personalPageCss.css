@@ -1,0 +1,31 @@
+.watermark{
+	text-align : center;
+
+}
+.watermark>img{
+	vertical-align : middle;
+}
+.productRow1{
+	text-align : center;
+}
+.productRow1>div>img{
+	position: relative;
+	left: 10%;
+	vertical-align : middle;
+}
+.productRow2{
+	text-align : center;
+}
+.productRow2>div>img{
+	position: relative;
+	left: 30%;
+	vertical-align : middle;
+}
+.productRow3{
+	text-align : center;
+}
+.productRow3>div>img{
+	position: relative;
+	left: 30%;
+	vertical-align : middle;
+}
