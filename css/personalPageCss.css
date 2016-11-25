@@ -1,31 +1,96 @@
-.watermark{
-	text-align : center;
+.watermark {
+	text-align: center;
+}
 
+.watermark>img {
+	vertical-align: middle;
 }
-.watermark>img{
-	vertical-align : middle;
+
+.row {
+	height: 33%;
 }
-.productRow1{
-	text-align : center;
+
+.row>div {
+	margin: 5px;
 }
-.productRow1>div>img{
+
+.sharezone {
+	text-align: center;
+}
+
+.sharezone>div {
 	position: relative;
-	left: 10%;
-	vertical-align : middle;
+	vertical-align: middle;
+	height: 200px;
 }
-.productRow2{
-	text-align : center;
+.share{
+	padding-top: 120px;	
 }
-.productRow2>div>img{
+
+.productRow1 {
+	text-align: center;
+}
+
+.productRow1>div {
 	position: relative;
-	left: 30%;
-	vertical-align : middle;
+	vertical-align: middle;
+	height: 350px;
+	overflow: hidden;
+	border-style: solid;
+	border-color: #C4E6F5;
+	border-width: 10px;
 }
-.productRow3{
-	text-align : center;
+.productRow2 {
+	text-align: center;
 }
-.productRow3>div>img{
+
+.productRow2>div {
 	position: relative;
-	left: 30%;
-	vertical-align : middle;
+	vertical-align: middle;
+	height: 350px;
+	overflow: hidden;
+	border-style: solid;
+	border-color: #C4E6F5;
+	border-width: 10px;
+}
+
+.plus{
+	position: relative;
+	vertical-align: middle;
+	height: 100px;
+}
+.plusmark{
+	display:inline-block;
+   width:1100px;
+   height:30px;
+   background:blue;
+}
+
+.donatezone {
+	text-align: center;
+}
+
+.donatezone>div {
+	position: relative;
+	vertical-align: middle;
+	height: 200px;
+}
+.donate{
+	padding-top: 120px;	
+}
+.productRow3 {
+	text-align: center;
+}
+
+.productRow3>div {
+	position: relative;
+	vertical-align: middle;
+	height: 350px;
+	overflow: hidden;
+	border-style: solid;
+	border-color: #C4E6F5;
+	border-width: 10px;
+}
+.content{
+	margin-top: 45px;
 }

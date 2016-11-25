@@ -14,4 +14,32 @@
 .button>div>a>p{
 	font-size: 30px;
 }
-
+#content{
+	margin-top: 50px;
+}
+#wanted{
+	margin-top: 170px;
+}
+#wanteditem{
+	border-style: solid;
+	border-color: white;
+	border-width: 10px;
+}
+#shareitem{
+	border-style: solid;
+	border-color: #D4E9F0;
+	border-width: 10px;
+}
+#donate{
+	margin-top: 20px;
+}
+.donatepart{
+	margin-top: 20px;
+	padding-bottom: 100px;
+}
+#donateitem{
+	margin-top: 10px;
+	border-style: solid;
+	border-color: #C9DC5A;
+	border-width: 5px;
+}
