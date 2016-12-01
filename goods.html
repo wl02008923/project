@@ -12,13 +12,10 @@
         <title>goods</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/goodsCss.css" rel="stylesheet" type="text/css">
-        <title>商品頁面</title>
-        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/themes/hot-sneaks/jquery-ui.css" rel="stylesheet">
-        <link href="css/goodslide.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="js/goodslide.js"></script>
-        <script type="text/javascript" src="js/jdSlide.js"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+  <title>商品頁面</title>
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/themes/hot-sneaks/jquery-ui.css" rel="stylesheet">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
         <style>
         article,aside,figure,figcaption,footer,header,hgroup,menu,nav,section {display:block;}
         body {background-color: rgb(203,216,219);}
@@ -62,45 +59,62 @@
         <!-- /navigation -->
         <div id="content">
             <div class="container">
-                    <!-- 賣家 -->
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 seller">
-                        <img src="img/goods/HDgoods.jpg" alt="">
-                        <p>姓名:</p>
-                        <p>評價:</p>
-                        <a href="">過往紀錄</a>
-                        <input id="datepicker1" type="text" />
-                        <input id="datepicker2" type="text" />
+                <!-- 賣家 -->
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 seller">
+                    <img src="img/goods/HDgoods.jpg" alt="">
+                    <p>姓名:</p>
+                    <p>評價:</p>
+                    <a href="">過往紀錄</a>
+                    <input id="datepicker1" type="text" />
+                    <input id="datepicker2" type="text" />
+                </div>
+                <!-- /賣家 -->
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <div class="producttop">
+                        <div class="product">
+                            <h2>Product</h2>
+                        </div>
+                        <h1>物品名稱</h1>
                     </div>
-                    <!-- /賣家 -->
-                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                        <div class="producttop">
-                            <div class="product">
-                                <h2>Product</h2>
-                            </div>
-                            <h1>物品名稱</h1>
-                        </div>
-                        <div class="productmid">
-                            <span>
-                                <div class="left">
-                                    <div class="white">
-                                        <div class="right">
-                                        </div>
+                    <div class="productmid">
+                        <span>
+                            <div class="left">
+                                <div class="white">
+                                    <div class="whitecircle">
                                     </div>
-                                    
+                                    <div class="right">
+                                        <div id="abgneBlock">
+                                            <ul class="list">
+                                                <li><img src="img/goods/HDgoods.jpg"></li>
+                                                <li><img src="img/goods/HDgoods.jpg"></li>
+                                                <li><img src="img/goods/HDgoods.jpg"></li>
+                                                <li><img src="img/goods/HDgoods.jpg"></li>
+                                                <li><img src="img/goods/HDgoods.jpg"></li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
                                 </div>
-                            </span>
-                            
+                                
+                            </div>
+                        </span>
+                        
+                    </div>
+                    <div class="productbottom">
+                        <div class="bluecircle">
                         </div>
-                        <div class="productbottom">
-                            
-                        </div>
+                    </div>
+                    <div class="back" style="background-image: url(img/goods/puzzle2.svg)">
+                        <a href="#">返回</a>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="js/goodsJs.js"></script>
-        <script src="js/jquery.js"></script>
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-    </body>
+    </div>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js" type=""></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/goodsJs.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
 </html>

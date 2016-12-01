@@ -32,6 +32,7 @@
 }
 .producttop>h1{
 	position: absolute;
+	width: 50%;
 	margin-left: 500px;
 	margin-top: -60px; 
 }
@@ -58,8 +59,88 @@
 }
 .productbottom{
 	width: 200px;
-	height: 80px;
+	height: 60px;
 	background-color: rgb(39,121,140);
 	margin-left: 180px;
 	text-align: center;
+}
+.whitecircle{
+	position: absolute;
+	height: 30px;
+	width:30px;
+	border-radius: 100%;
+	background-color: white;
+	margin-left: 80px;
+	margin-top: -23px;
+}
+.bluecircle{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	background-color: rgb(39,121,140);
+	margin-left: 80px;
+	margin-top: -23px;
+}
+.back{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background-repeat:no-repeat;
+	margin-left: 90%;
+	text-align: center;
+}
+.back>a{
+	display: inline-block;
+	line-height: 50px;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	font-weight: bolder;
+}
+#abgneBlock {
+	width: 600px;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #ccc;
+}
+#abgneBlock ul.list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	width: 9999px;
+	height: 100%;
+}
+#abgneBlock ul.list li {
+	float: left;
+	width: 500px;
+	height: 100%;
+}
+#abgneBlock .list img{
+	width: 500px;
+	height: 100%;
+	border: 0;
+}
+#abgneBlock ul.playerControl {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	height: 14px;
+}
+#abgneBlock ul.playerControl li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	margin: 0px 2px;
+	background: url(../img/goods/dot.svg) no-repeat;
+	background-size: 10px;
+}
+#abgneBlock ul.playerControl li.current { 
+	background-position: 0 0;
 }
