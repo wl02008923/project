@@ -14,6 +14,9 @@
 	text-decoration: none;
 	color:black;
 }
+.goods{
+	margin-top: -35px;
+}
 .producttop{
 	height: 80px;
 	margin-top:50px;
@@ -21,7 +24,7 @@
 .product{
 	width: 200px;
 	background-color: rgb(115,201,222);
-	margin-left: 180px;
+	margin-left: 130px;
 	text-align: center;
 }
 .product>h2{
@@ -30,20 +33,18 @@
 	font-weight: bolder;
 	color: black;
 }
-.producttop>h1{
-	position: absolute;
-	width: 50%;
-	margin-left: 500px;
+.producttop>h2{
+	position: static;
+	width: 70%;
+	margin-left: 450px;
 	margin-top: -60px; 
-}
-.productmid{
-
+	color: black;
 }
 .left{
 	height: 600px;
 	width: 50px;
 	background-color: rgb(115,201,222);
-	margin-left: 130px;
+	margin-left: 80px;
 }
 .white{
 	height: 600px;
@@ -51,7 +52,17 @@
 	background-color: white;
 	margin-left: 50px;
 }
+.white>p{
+	position: absolute;
+	font-size: 30px;
+	color: black;
+	width: 200px;
+}
+.white>input{
+	position: absolute;
+}
 .right{
+	position: absolute;
 	height: 600px;
 	width: 600px;
 	background-color: rgb(115,201,222);
@@ -61,8 +72,16 @@
 	width: 200px;
 	height: 60px;
 	background-color: rgb(39,121,140);
-	margin-left: 180px;
+	margin-left: 130px;
 	text-align: center;
+}
+.productbottom>a{
+	display: inline-block;
+	width: 200px;
+	color: black;
+	text-decoration: none;
+	margin-top: 5px;
+	font-size: 30px;
 }
 .whitecircle{
 	position: absolute;
@@ -87,7 +106,7 @@
 	height: 100px;
 	width: 100px;
 	background-repeat:no-repeat;
-	margin-left: 90%;
+	margin-left: 85%;
 	text-align: center;
 }
 .back>a{
@@ -99,11 +118,12 @@
 	font-weight: bolder;
 }
 #abgneBlock {
-	width: 600px;
-	height: 600px;
-	position: relative;
+	width: 500px;
+	height: 330px;
+	position: absolute;
 	overflow: hidden;
-	border: 1px solid #ccc;
+	margin-top: 130px;
+	margin-left: 50px
 }
 #abgneBlock ul.list {
 	padding: 0;

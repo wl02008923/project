@@ -12,6 +12,9 @@
         <title>goods</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/goodsCss.css" rel="stylesheet" type="text/css">
+        <link href="css/common.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>        
+        <link rel="stylesheet" href="css/firsteffect.css" type="text/css" media="screen"/>
   <title>商品頁面</title>
   <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/themes/hot-sneaks/jquery-ui.css" rel="stylesheet">
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -61,25 +64,28 @@
             <div class="container">
                 <!-- 賣家 -->
                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 seller">
-                    <img src="img/goods/HDgoods.jpg" alt="">
+                    <img src="img/goods/HDseller.jpg" alt="">
                     <p>姓名:</p>
                     <p>評價:</p>
                     <a href="">過往紀錄</a>
-                    <input id="datepicker1" type="text" />
-                    <input id="datepicker2" type="text" />
                 </div>
                 <!-- /賣家 -->
-                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 goods">
                     <div class="producttop">
                         <div class="product">
                             <h2>Product</h2>
                         </div>
-                        <h1>物品名稱</h1>
+                        <h2>等身大HD公仔 聖誕ver.</h2>
                     </div>
                     <div class="productmid">
                         <span>
                             <div class="left">
                                 <div class="white">
+                                    <p>物品描述:</p>
+                                    <p style="margin-top:35px; font-size:25px;">在寒冷的12月寒風中，聖誕HD帶給你滿滿溫暖</p>
+                                    <p style="margin-top:470px">可用時間:</p>
+                                    <input id="datepicker1" type="text" style="margin-top:510px" >
+                                    <input id="datepicker2" type="text" style="margin-top:535px" >
                                     <div class="whitecircle">
                                     </div>
                                     <div class="right">
@@ -103,6 +109,7 @@
                     <div class="productbottom">
                         <div class="bluecircle">
                         </div>
+                        <a href="">聯絡賣家</a>
                     </div>
                     <div class="back" style="background-image: url(img/goods/puzzle2.svg)">
                         <a href="#">返回</a>
@@ -111,10 +118,6 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js" type=""></script>
-    <script src="js/jquery.js"></script>
     <script src="js/goodsJs.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

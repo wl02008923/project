@@ -1,0 +1,201 @@
+#header{
+	margin-top: 50px;
+	height: 120px;
+	background-color: rgb(35,69,99);
+}
+.icon{
+	width: 30%;
+	text-align: center;
+}
+.icon>a>img{
+	margin-top: 30px;
+}
+.threetype{
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 30%;
+}
+.left{
+	position: absolute;
+	width:300px;
+	text-align: right;
+}
+.mid{
+	position: absolute;
+	width:300px;
+	margin-left: 300px;
+	text-align: center;
+}
+.right{
+	position: absolute;
+	width:300px;
+	margin-left: 600px;
+	text-align: left;
+}
+.threetype>div>a>h4{
+	color: white;
+	font-weight: bold;
+}
+.white{
+	height: 30px;
+}
+.gray{
+	height: 60px;
+	background-color: rgb(230,230,230);
+}
+.gray>img{
+	position: absolute;
+	height:50px;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+.gray>h4{
+	position: absolute;
+	margin-left: 170px;
+	margin-top: 20px;
+	font-weight: bolder;
+}
+.wantedgoods{
+	width:200px;
+	text-align: center;
+	margin-left: 50px;
+	margin-top:20px;
+}
+.wantedgoods>h4{
+	font-weight: bolder;
+}
+.wantedgoods>div{
+	position: absolute;
+	margin-top: 10px;
+	margin-left:60px;
+}
+.wantedgoods>div>p{
+	padding-top: 10px;
+	font-weight: bolder;
+}
+.wantedprice{
+	width: 200px;
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -40px;
+	text-align: center; 
+}
+.wantedprice>h4{
+	margin-right: 120px;
+	font-weight: bolder;
+	
+}
+.wantedprice>div{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.wantedprice>div>p{
+	padding-top: 10px;
+	font-weight: bolder;
+}
+.reward{
+	width: 200px;
+	position: absolute;
+	margin-left: 500px;
+	margin-top: -40px;
+	text-align: center; 
+}
+.reward>h4{
+	margin-right: 102px;
+	font-weight: bolder;
+}
+.reward>div{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.reward>div>p{
+	padding-top: 10px;
+	font-weight: bolder;
+}
+.demandtime{
+	width: 200px;
+	position: absolute;
+	margin-left: 700px;
+	margin-top: -40px;
+	text-align: center; 
+}
+.demandtime>h4{
+	margin-right: 30px;
+	font-weight: bolder;
+}
+.demandtime>div{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.demandtime>div>p{
+	padding-top: 10px;
+	font-weight: bolder;
+}
+.bidtimes{
+	width: 200px;
+	position: absolute;
+	margin-left: 900px;
+	margin-top: -40px;
+	text-align: center; 
+}
+.bidtimes>h4{
+	margin-right: 30px;
+	font-weight: bolder;
+}
+.bidtimes>div{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+.bidtimes>div>p{
+	padding-top: 10px;
+	font-weight: bolder;
+}
+.addprice{
+	width: 200px;
+	position: absolute;
+	margin-left: 1100px;
+	margin-top: -40px;
+	text-align: center; 
+}
+.addprice>h4{
+	margin-right: 30px;
+	font-weight: bolder;
+}
+.addprice>div{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 55px;
+}
+.addprice>div>a>p{
+	padding-top: 10px;
+	font-weight: bolder;
+	color: black;
+}
+.rest{
+	background-color: rgb(247,147,30);
+	width: 200px;
+	height: 180px;
+	position: absolute;
+	margin-left: 1300px;
+	margin-top: -40px;
+	text-align: center; 
+}
+.rest>h4{
+	margin-right: 30px;
+	font-weight: bolder;
+	color: white;
+}
+.rest>div{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+.rest>div>p{
+	padding-top: 10px;
+	font-weight: bolder;
+	color: white;
+}
