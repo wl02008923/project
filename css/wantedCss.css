@@ -1,8 +1,14 @@
 #header{
-	margin-top: 50px;
+	position: fixed;
+	margin-top: -90px;
 	height: 120px;
 	width: 1410px;
 	background-color: rgb(35,69,99);
+	z-index: 2;
+}
+#content{
+	z-index: 1;
+	margin-top: 120px;
 }
 .icon{
 	width: 30%;
@@ -15,6 +21,7 @@
 	position: absolute;
 	margin-top: -45px;
 	margin-left: 30%;
+
 }
 .left{
 	position: absolute;
@@ -32,6 +39,9 @@
 	width:300px;
 	margin-left: 600px;
 	text-align: left;
+}
+.threetype>div>a{
+	text-decoration: none;
 }
 .threetype>div>a>h4{
 	color: white;
@@ -116,10 +126,16 @@
 	width: 180px;
 	position: absolute;
 	margin-left: 460px;
-	margin-top: -40px;
+	margin-top: -20px;
 	text-align: center; 
 }
 .reward>h4{
+	background-image: url(../img/wanted/reward.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30px 50px;
+	padding: 20px;
+	margin: -20px;
 	margin-right: 102px;
 	font-weight: bolder;
 }
@@ -135,11 +151,17 @@
 	width: 180px;
 	position: absolute;
 	margin-left: 640px;
-	margin-top: -40px;
+	margin-top: -20px;
 	text-align: center; 
 }
 .demandtime>h4{
-	margin-right: 30px;
+	background-image: url(../img/wanted/demandtime.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30px 50px;
+	padding: 20px;
+	margin: -20px;
+	margin-right: 10px;
 	font-weight: bolder;
 }
 .demandtime>div{
@@ -154,11 +176,13 @@
 	width: 200px;
 	position: absolute;
 	margin-left: 820px;
-	margin-top: -40px;
+	margin-top: -20px;
 	text-align: center; 
 }
 .bidtimes>h4{
-	margin-right: 30px;
+	padding: 20px;
+	margin: -20px;
+	margin-right: 20px;
 	font-weight: bolder;
 }
 .bidtimes>div{
@@ -174,11 +198,13 @@
 	width: 180px;
 	position: absolute;
 	margin-left: 980px;
-	margin-top: -40px;
+	margin-top: -20px;
 	text-align: center; 
 }
 .addprice>h4{
-	margin-right: 30px;
+	padding: 20px;
+	margin: -20px;
+	margin-right: 10px;
 	font-weight: bolder;
 }
 .addprice>div{
@@ -201,14 +227,16 @@
 	text-align: center; 
 }
 .rest>h4{
-	margin-right: 30px;
+	padding: 20px;
+	margin: -20px;
+	margin-top: 2px;
 	font-weight: bolder;
 	color: white;
 }
 .rest>div{
 	position: absolute;
 	margin-top: 10px;
-	margin-left: 50px;
+	margin-left: 60px;
 }
 .rest>div>p{
 	padding-top: 10px;
@@ -224,28 +252,41 @@
 	font-weight: bolder;
 }
 .success{
-	height: 200px;
-	margin-top: 10px;
+	height: 250px;
+	margin-top: 50px;
 	margin-left: -20px;
 }
-.successtitle>th{
-	padding-top:10px;
-	padding-left: 120px;
-	font-size: 15px;
-	font-weight: bolder;
-	text-align: center;
-}
-.successitem>th{
-	padding-top:10px;
-	padding-left: 120px;
-	font-weight: bolder;
-	text-align: center;
+.successbg{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 900px;
 }
 .successmore{
 	position: absolute;
 	margin-left: 1220px;
-	margin-top: 55px;
+	margin-top: -80px;
 }
 .successmore>button{
+	font-weight: bolder;
+}
+.failed{
+	height: 250px;
+	margin-top: 50px;
+	margin-left: -20px;
+}
+.failed>.wantedgoods>div>p{
+	margin-left:15px; 
+}
+.failedbg{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 1000px;
+}
+.failedmore{
+	position: absolute;
+	margin-left: 1220px;
+	margin-top: -80px;
+}
+.failedmore>button{
 	font-weight: bolder;
 }

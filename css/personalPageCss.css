@@ -2,20 +2,20 @@
 	text-align: center;
 }
 
-.watermark>img {
+.watermark>img {	
 	vertical-align: middle;
 }
-
-.row {
-	height: 33%;
+.person>div>img{
+	margin-top: 30px;
 }
-
-.row>div {
-	margin: 5px;
+.person>div>a{
+	text-decoration: none;
 }
-
 .sharezone {
 	text-align: center;
+}
+.sharezone>div>img{
+	width: 150px;
 }
 
 .sharezone>div {
@@ -24,7 +24,7 @@
 	height: 200px;
 }
 .share{
-	padding-top: 120px;	
+	padding-top: 70px;	
 }
 
 .productRow1 {
@@ -39,6 +39,7 @@
 	border-style: solid;
 	border-color: #C4E6F5;
 	border-width: 10px;
+	margin-top: -50px;
 }
 .productRow2 {
 	text-align: center;
@@ -76,7 +77,10 @@
 	height: 200px;
 }
 .donate{
-	padding-top: 120px;	
+	padding-top: 70px;	
+}
+.donatezone>div>img{
+	width: 150px;	
 }
 .productRow3 {
 	text-align: center;
@@ -90,6 +94,7 @@
 	border-style: solid;
 	border-color: #C4E6F5;
 	border-width: 10px;
+	margin-top: -50px;
 }
 .content{
 	margin-top: 45px;
