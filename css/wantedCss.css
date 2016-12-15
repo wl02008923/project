@@ -1,7 +1,7 @@
 #header{
 	position: fixed;
 	margin-top: -90px;
-	height: 120px;
+	height: 175px;
 	width: 1410px;
 	background-color: rgb(35,69,99);
 	z-index: 2;
@@ -18,54 +18,97 @@
 	margin-top: 30px;
 }
 .threetype{
-	position: absolute;
-	margin-top: -45px;
-	margin-left: 30%;
+	margin-top: -35px;
 
 }
 .left{
+	padding:50px;
+	margin: -50px;
+	margin-top: -39px;
 	position: absolute;
-	width:300px;
-	text-align: right;
+	background-image: url(../img/wanted/puzzle1.svg);
+	background-repeat: no-repeat;
+	left: 550px;
+	background-size: 90px;
+}
+.left>a>h4{
+	position: absolute;
+	width: 75px;	
+	color: black;
+	font-weight: bold;
+	right: 24px;
+	font-size: 16px;
+	top: 45px;
 }
 .mid{
+	padding:60px;
+	margin: -60px;
+	margin-top: -14px;
 	position: absolute;
-	width:300px;
-	margin-left: 300px;
+	left: 623px;
 	text-align: center;
+	background-image: url(../img/wanted/puzzle2.svg);
+	background-repeat: no-repeat;
+	background-size: 120px;
+}
+.mid>a>h4{
+	position: absolute;
+	width: 75px;
+	color: black;
+	right: 22px;
+	top: 19px;
+	font-size: 16px;
 }
 .right{
+	padding:49px;
+	margin: -49px;
+	margin-top: -13px;
 	position: absolute;
-	width:300px;
-	margin-left: 600px;
+	left: 706px;
 	text-align: left;
+	background-image: url(../img/wanted/puzzle3.svg);
+	background-repeat: no-repeat;
+	background-size: 96px;
+}
+.right>a>h4{
+	position: absolute;
+	width: 75px;
+	color: black;
+	right: -3px;
+	top: 20px;
+	font-size: 16px;
+}
+.joinwanted{
+	padding: 50px;
+	margin:-50px;
+	position: absolute;
+	background-image: url(../img/wanted/puzzle4.svg);
+	background-repeat: no-repeat;
+	background-size: 100px;
+	left: 1000px;
+}
+.joinwanted>a>h4{
+	position: absolute;
+	width: 75px;
+	right: 25px;
+	bottom: 50px;
+	color: green;
 }
 .threetype>div>a{
 	text-decoration: none;
 }
-.threetype>div>a>h4{
-	color: white;
-	font-weight: bold;
-}
 .white{
-	height: 30px;
+	height: 84px;
 }
-.gray{
-	width: 1420px;
-	height: 60px;
+.bgwhite{
+	margin-top: -60px;
+	height: 200px;
+	background-color: white;
+}
+.bggray{
+	margin-top: -60px;
+	height: 200px;
 	background-color: rgb(230,230,230);
-}
-.gray>img{
-	position: absolute;
-	height:50px;
-	margin-left: 100px;
-	margin-top: 5px;
-}
-.gray>h4{
-	position: absolute;
-	margin-left: 170px;
-	margin-top: 20px;
-	font-weight: bolder;
 }
 .wantednow{
 	height: 250px;
@@ -73,20 +116,20 @@
 .wantedgoods{
 	width:180px;
 	text-align: center;
-	margin-left: 50px;
-	margin-top:20px;
+	margin-left: 200px;
+	margin-top: 60px;
 }
 
-.wantedgoods>h4{
+.wantedgoods>h2{
 	background-image: url(../img/wanted/wantedgoods.svg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 70px 100px;
-	padding: 20px;
-	margin: -20px;
+	background-size: 100px 120px;
+	padding: 40px;
+	margin: -40px;
 	font-weight: bolder;
 }
-.wantedgoods>div{
+/*.wantedgoods>div{
 	position: absolute;
 	margin-top: 10px;
 	margin-left:50px;
@@ -94,26 +137,61 @@
 .wantedgoods>div>p{
 	padding-top: 10px;
 	font-weight: bolder;
+}*/
+.wantedgoods>span>.img{
+	position: absolute;
+	margin-left: -170px;
+	padding-top: 20px;
+	height: 180px;
+	width: 200px;
+	overflow: hidden;
+}
+.wantedgoods>span>.img>a>img{
+	margin-left: -25px;
+	height: 100%;
+}
+
+.wantedgoods>span>.goodsname{
+	width: 100px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 60px;
+	text-align: left;
+}
+.wantedgoods>span>.goodsname>a{
+	font-size: 28px;
+	color: black;
+	text-decoration: none;
 }
 .wantedprice{
 	width: 220px;
 	position: absolute;
-	margin-left: 280px;
-	margin-top: -20px;
+	margin-left: 550px;
+	margin-top: -35px;
 	text-align: center; 
 }
-.wantedprice>h4{
+.wantedprice>h2{
+	width: 300px;
 	background-image: url(../img/wanted/wantedprice.svg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 30px 50px;
-	padding: 20px;
-	margin: -20px;
+	background-size: 40px 60px;
+	padding: 40px;
+	margin: -40px;
 	margin-right: 120px;
 	font-weight: bolder;
-	
 }
-.wantedprice>div{
+.wantedprice>.price{
+	position: absolute;
+	margin-top: 105px;
+	margin-left: 60px;
+	text-align: left;
+}
+.wantedprice>.price>p{
+	font-size: 28px;
+	color: black;
+}
+/*.wantedprice>div{
 	position: absolute;
 	margin-top: 10px;
 	margin-left: 20px;
@@ -121,172 +199,31 @@
 .wantedprice>div>p{
 	padding-top: 10px;
 	font-weight: bolder;
-}
-.reward{
-	width: 180px;
-	position: absolute;
-	margin-left: 460px;
-	margin-top: -20px;
-	text-align: center; 
-}
-.reward>h4{
-	background-image: url(../img/wanted/reward.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 30px 50px;
-	padding: 20px;
-	margin: -20px;
-	margin-right: 102px;
-	font-weight: bolder;
-}
-.reward>div{
-	position: absolute;
-	margin-top: 10px;
-}
-.reward>div>p{
-	padding-top: 10px;
-	font-weight: bolder;
-}
-.demandtime{
-	width: 180px;
-	position: absolute;
-	margin-left: 640px;
-	margin-top: -20px;
-	text-align: center; 
-}
-.demandtime>h4{
-	background-image: url(../img/wanted/demandtime.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 30px 50px;
-	padding: 20px;
-	margin: -20px;
-	margin-right: 10px;
-	font-weight: bolder;
-}
-.demandtime>div{
-	position: absolute;
-	margin-top: 10px;
-}
-.demandtime>div>p{
-	padding-top: 10px;
-	font-weight: bolder;
-}
-.bidtimes{
-	width: 200px;
-	position: absolute;
-	margin-left: 820px;
-	margin-top: -20px;
-	text-align: center; 
-}
-.bidtimes>h4{
-	padding: 20px;
-	margin: -20px;
-	margin-right: 20px;
-	font-weight: bolder;
-}
-.bidtimes>div{
-	position: absolute;
-	margin-top: 10px;
-	margin-left: 80px;
-}
-.bidtimes>div>p{
-	padding-top: 10px;
-	font-weight: bolder;
-}
-.addprice{
-	width: 180px;
+}*/
+.resttime1{
+	height: 225px;
+	width: 220px;
 	position: absolute;
 	margin-left: 980px;
-	margin-top: -20px;
+	margin-top: -95px;
 	text-align: center; 
-}
-.addprice>h4{
-	padding: 20px;
-	margin: -20px;
-	margin-right: 10px;
-	font-weight: bolder;
-}
-.addprice>div{
-	position: absolute;
-	margin-top: 10px;
-	margin-left: 45px;
-}
-.addprice>div>a>p{
-	padding-top: 10px;
-	font-weight: bolder;
-	color: black;
-}
-.rest{
 	background-color: rgb(247,147,30);
-	width: 180px;
-	height: 180px;
+	border-top: 50px;
+}
+.resttime1>h2{
+	margin-top:60px;
+	font-weight: bolder;
+}
+.resttime2{
+	height: 200px;
+	width: 220px;
 	position: absolute;
-	margin-left: 1150px;
-	margin-top: -40px;
+	margin-left: 980px;
 	text-align: center; 
+	background-color: rgb(247,147,30);
+	border-top: 50px;
 }
-.rest>h4{
-	padding: 20px;
-	margin: -20px;
-	margin-top: 2px;
-	font-weight: bolder;
-	color: white;
-}
-.rest>div{
-	position: absolute;
-	margin-top: 10px;
-	margin-left: 60px;
-}
-.rest>div>p{
-	padding-top: 10px;
-	font-weight: bolder;
-	color: white;
-}
-.wantedmore{
-	position: absolute;
-	margin-left: 1200px;
-	margin-top: -50px;
-}
-.wantedmore>button{
-	font-weight: bolder;
-}
-.success{
-	height: 250px;
-	margin-top: 50px;
-	margin-left: -20px;
-}
-.successbg{
-	position: absolute;
-	margin-top: -10px;
-	margin-left: 900px;
-}
-.successmore{
-	position: absolute;
-	margin-left: 1220px;
-	margin-top: -80px;
-}
-.successmore>button{
-	font-weight: bolder;
-}
-.failed{
-	height: 250px;
-	margin-top: 50px;
-	margin-left: -20px;
-}
-.failed>.wantedgoods>div>p{
-	margin-left:15px; 
-}
-.failedbg{
-	position: absolute;
-	margin-top: -10px;
-	margin-left: 1000px;
-}
-.failedmore{
-	position: absolute;
-	margin-left: 1220px;
-	margin-top: -80px;
-}
-.failedmore>button{
+.resttime>h2{
+	margin-top:60px;
 	font-weight: bolder;
 }
