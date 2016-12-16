@@ -1,3 +1,8 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
 #header{
 	position: fixed;
 	margin-top: -90px;
@@ -87,12 +92,47 @@
 	background-size: 100px;
 	left: 1000px;
 }
-.joinwanted>a>h4{
+.joinwanted>p{
+	font-size: 15px;
 	position: absolute;
 	width: 75px;
-	right: 25px;
+	right: 20px;
 	bottom: 50px;
 	color: green;
+	cursor: pointer;
+}
+#dialog{
+	position: fixed;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	margin:0px;
+	background-color: #000000;
+	z-index: 1;
+	text-align: center;
+}
+#msg{  
+	position:absolute;
+	top:0px;
+	left:420px;
+	background-color:rgb(183,233,249);
+	width:400px;
+	z-index:3;
+	border:30px solid transparent;	
+}
+#msgicon{
+	margin-top: -80px;
+	margin-left: -10px;
+}
+#msg>table,tr,th{
+	padding: 10px;
+}
+#msg>input{
+	text-align: center;
+}
+#wantedconfirm{
+	text-align: center;
 }
 .threetype>div>a{
 	text-decoration: none;
