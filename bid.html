@@ -1,0 +1,163 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bidCss.css" rel="stylesheet">
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/themes/hot-sneaks/jquery-ui.css" rel="stylesheet">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+	<title>Document</title>
+	<style>
+		body{
+			background-color: rgb(202,244,249);
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<ul class="nav navbar-nav navbar-left">
+					<li style="top:-7px">
+						<a class="navbar-brand" href="index.html"><img src="img/icon.svg" width="100px" height="30px"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-left">
+					<li>
+						<a href="Register.html">註冊</a>
+					</li>
+					<li>
+						<a href="login.html">登入</a>
+					</li>
+					<li style="top:-5px">
+						<a class="navbar-brand" href="#">
+							<img src="img/search.ico" width="30px" height="30px">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="content">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="img col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1"  onmousewheel="return zoomPic('ps4pic')" >
+					<img id="ps4pic" src="img/wanted/ps4(2).jpg" alt="">
+				</div>
+				<div class="name col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+					<h2>商品名稱:</h2><br>
+					<h1>PS4(附手把)</h1>
+				</div>
+				<div class="bid col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+					<p onclick="showDialog()">我要喊價</p>
+				</div>
+
+			</div>
+		</div>
+		<div id="dialog">
+
+		</div>
+		<div id="msg" class="col-xs-4 col-xs-offset-4">
+			<img src="img/wanted/wantedicon.svg" alt="" class="col-xs-3"  id="msgicon">
+			<img src="img/wanted/ps4(2).jpg" class="col-xs-9" alt="">
+			<p class="col-xs-4">懸賞人(id)</p>
+			<p class="col-xs-8">李紹威</p>
+			<p class="col-xs-4">物品名稱</p>
+			<p class="col-xs-8">PS4(附手把)</p>
+			<p class="col-xs-5">喊價價格&nbsp;NT</p>
+			<input class="col-xs-7" type="text">
+			<div id="bidconfirm"><input type="button" value="送出喊價" onclick="closeDialog();" ></div>			
+		</div>
+		<div class="row">
+			<div class="prices">
+				<div class="number col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					<div>
+						<h5>1</h5>
+						<h5>2</h5>
+						<h5>3</h5>
+						<h5>4</h5>
+						<h5>5</h5>
+					</div>
+				</div>
+				<div class="reward col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+					<h4>懸賞者</h4>
+					<img src="img/wanted/reward.svg" alt="">
+					<div>
+						<h5>ID</h5>
+						<h5>ID</h5>
+						<h5>ID</h5>
+						<h5>ID</h5>
+						<h5>ID</h5>
+					</div>
+				</div>
+				<div class="price col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					<h4>願付金額</h4>
+					<img src="img/wanted/wantedprice.svg" alt="">
+					<div>
+						<h5>1000</h5>
+						<h5>900</h5>
+						<h5>850</h5>
+						<h5>770</h5>
+						<h5>500</h5>
+					</div>
+				</div>
+				<div class="timeup col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					<h4>截止時間</h4>
+					<img src="img/wanted/demandtime.svg" alt="">
+					<div>
+						<h5>3DAYS</h5>
+						<h5>3DAYS</h5>
+						<h5>3DAYS</h5>
+						<h5>2DAYS</h5>
+						<h5>2DAYS</h5>
+					</div>
+				</div>
+				<div class="tear col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					<h4>撕單</h4>
+					<img src="img/wanted/tear.svg" alt="">
+					<div>
+						<h5 onclick="showDialog2()">撕單</h5>
+						<h5 onclick="showDialog2()">撕單</h5>
+						<h5 onclick="showDialog2()">撕單</h5>
+						<h5 onclick="showDialog2()">撕單</h5>
+						<h5 onclick="showDialog2()">撕單</h5>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div id="dialog2">
+			
+		</div>
+		<div id="msg2" class="col-xs-4 col-xs-offset-4">
+			<img src="img/wanted/wantedicon.svg" alt="" class="col-xs-3"  id="msgicon">
+			<img src="img/wanted/ps4(2).jpg" class="col-xs-9" alt="">
+			<p class="col-xs-4">懸賞人(id)</p>
+			<p class="col-xs-8">李紹威</p>
+			<p class="col-xs-4">物品名稱</p>
+			<p class="col-xs-8">PS4(附手把)</p>
+			<p class="col-xs-4">出價 &nbsp; NT </p>
+			<p class="col-xs-8">2000</p>
+			<p class="col-xs-4">時間 &nbsp; form</p>
+			<p class="col-xs-8">2016/12/24</p>
+			<p class="col-xs-4">to</p>
+			<p class="col-xs-8">2016/12/31</p>
+			<p class="col-xs-4">備註</p>
+			<p class="col-xs-8">N/A</p>		
+			<div id="tearconfirm"><input type="button" value="確定撕單" onclick="closeDialog2();" ></div>
+		</div>
+	</div>
+</body>
+<script src="js/bidJs.js"></script>
+</html>

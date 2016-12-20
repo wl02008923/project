@@ -44,10 +44,10 @@
 	margin-top: -90px;
 	left: 45px;
 }
-#success>img{
-	width: 200px;
-	float: left;
-	margin-left: 120px;
+#fail>img{
+	width: 100px;
+	float: right;
+	margin-right: 120px;
 }
 @media screen and (min-width: 1300px){
 	.left{
@@ -86,7 +86,6 @@
 		right: 22px;
 		top: 19px;
 		font-size: 16px;
-		font-weight: bold;
 	}
 	.right{
 		padding:49px;
@@ -106,6 +105,7 @@
 		right: -3px;
 		top: 20px;
 		font-size: 16px;
+		font-weight: bold;
 	}
 	.joinwanted{
 		padding: 50px;
@@ -165,7 +165,6 @@
 			right: 22px;
 			top: 19px;
 			font-size: 16px;
-			font-weight: bold;
 		}
 		.right{
 			padding:49px;
@@ -185,6 +184,7 @@
 			right: -3px;
 			top: 20px;
 			font-size: 16px;
+			font-weight: bold;
 		}
 		.joinwanted{
 			padding: 50px;
@@ -282,7 +282,6 @@
 			right: 22px;
 			top: 19px;
 			font-size: 16px;
-			font-weight: bold;
 		}
 		.right{
 			padding:49px;
@@ -302,6 +301,7 @@
 			right: -3px;
 			top: 20px;
 			font-size: 16px;
+			font-weight: bold;
 		}
 		.joinwanted{
 			padding: 50px;
@@ -398,7 +398,6 @@
 		right: 22px;
 		top: 19px;
 		font-size: 16px;
-		font-weight: bold;
 	}
 	.right{
 		padding:49px;
@@ -418,6 +417,7 @@
 		right: -3px;
 		top: 20px;
 		font-size: 16px;
+		font-weight: bold;
 	}
 	.joinwanted{
 		padding: 50px;
