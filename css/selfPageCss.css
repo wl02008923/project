@@ -1,0 +1,89 @@
+.watermark {
+	text-align: center;
+}
+
+.watermark>img {	
+	vertical-align: middle;
+}
+.person>div>img{
+	margin-top: 30px;
+}
+.person>div>a{
+	text-decoration: none;
+}
+.sharezone {
+	text-align: center;
+}
+.sharezone>div>img{
+	width: 150px;
+}
+
+.sharezone>div {
+	position: relative;
+	vertical-align: middle;
+	height: 200px;
+}
+.share{
+	padding-top: 70px;	
+}
+
+.productRow1 {
+	text-align: center;
+}
+
+.productRow1>div {
+	position: relative;
+	vertical-align: middle;
+	height: 350px;
+	overflow: hidden;
+	border-style: solid;
+	border-color: #C4E6F5;
+	border-width: 10px;
+	margin-top: -50px;
+}
+.productRow2 {
+	text-align: center;
+}
+
+.productRow2>div {
+	position: relative;
+	vertical-align: middle;
+	height: 350px;
+	overflow: hidden;
+	border-style: solid;
+	border-color: #C4E6F5;
+	border-width: 10px;
+}
+
+.donatezone {
+	text-align: center;
+}
+
+.donatezone>div {
+	position: relative;
+	vertical-align: middle;
+	height: 200px;
+}
+.donate{
+	padding-top: 70px;	
+}
+.donatezone>div>img{
+	width: 150px;	
+}
+.productRow3 {
+	text-align: center;
+}
+
+.productRow3>div {
+	position: relative;
+	vertical-align: middle;
+	height: 350px;
+	overflow: hidden;
+	border-style: solid;
+	border-color: #C4E6F5;
+	border-width: 10px;
+	margin-top: -50px;
+}
+.content{
+	margin-top: 45px;
+}
