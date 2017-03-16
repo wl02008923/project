@@ -9,32 +9,8 @@ body{
 .form-group{
 	margin-top: 2em;
 }
-.calendar {
-	font-family: arial, sans-serif;
-	border-collapse: collapse;
-
-}
-td, th {
-	border: 1px solid #dddddd;
-	text-align: left;
-	padding: 3px;
-	text-align:center;
-	cursor:not-allowed;
-}
-.notDate{
-	background-color: #000000;
-	color:#ffffff;
-}
-.isDate{
-	background-color: #dddddd;
-}
-.isDateCanSelect{
-	background-color: #ffffff;
-	cursor:pointer;
-}
-.isDateHasS{
-	background-color: #ffff00;
-	cursor:pointer;
+#password{
+	padding-top: 1em;
 }
 .submit{
 	padding-bottom: 5em;
